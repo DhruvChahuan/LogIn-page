@@ -1,0 +1,35 @@
+body{
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: center;
+    margin-top: 180px;
+}
+.container{
+    background-color: white;
+    padding: 50px;
+    border-radius: 20px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+}
+.text{
+    font-size: 25px;
+    border-top: none;
+}
+.name{
+    font-size: 20px;
+}
+.password{
+    font-size: 20px;
+}
+.btn{
+    background-color: cornflowerblue;
+    color: purple;
+    font-size: 20px;
+    height: 30px;
+    width: 253px;
+    border: 1px solid black;
+}
+.btn:hover{
+    background-color: white;
+}
